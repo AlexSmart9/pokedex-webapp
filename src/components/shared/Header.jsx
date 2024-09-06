@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header__red-block'>
             <div className='header__red-child'></div>
             <div className='header__red-child2'></div>
-            <img className='header__red-img' src="../../../public/img/pokebanner-removebg-preview.png" alt="" />
+            <img className='header__red-img' src="/img/pokebanner-removebg-preview.png" alt="" />
         </div>
         <div className='header__black-block'></div>
     </div>

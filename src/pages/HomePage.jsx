@@ -19,7 +19,7 @@ const HomePage = () => {
   return (
     <div className='pokedex flex-container'>
       <div className='pokedex__container flex-container'>
-        <img className='pokedex__img' src="../../public/img/pokebanner-removebg-preview.png" alt="pokedex" />
+        <img className='pokedex__img' src="/img/pokebanner-removebg-preview.png" alt="pokedex" />
         <h2 className='pokedex__welcome'>!Hi Trainer¡</h2>
         <p className='pokedex__text'>If you want to find your favorite pokemon, please create a trainer name</p>
         <form className='pokedex__form flex-container' onSubmit={handleSubmit} >
