@@ -24,7 +24,7 @@ const HomePage = () => {
         <p className='pokedex__text'>If you want to find your favorite pokemon, please create a trainer name</p>
         <form className='pokedex__form flex-container' onSubmit={handleSubmit} >
             <input className='pokedex__input' type="text" placeholder='Create a trainer name with more than three characters' ref={inputTrainer} 
-            maxLength={3}/>
+            maxLength={10}/>
             <button className='pokedex__btn'>Catch Them All!</button>
         </form>
       </div>
