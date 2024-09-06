@@ -1,0 +1,34 @@
+.buttons__container{
+    gap: 12em;
+    padding-bottom: 2em;
+    .button__next{
+        background-color: #ff0011;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 2em;
+        font-weight: 900;
+        border-radius: 1em;
+        border: 2px solid black;
+        transition: all 1s;
+        &:hover{
+            background-color: #000;
+            color: #ff000f;
+            box-shadow: 0 0 4px 2px #ff000f;
+        }
+    }
+    .button__prev{
+        background-color: #ff0011;
+        padding-left: 1em;
+        padding-right: 1em;
+        font-size: 2em;
+        font-weight: 900;
+        border-radius: 1em;
+        border: 2px solid black;
+        transition: all 1s;
+        &:hover{
+            background-color: #000;
+            color: #ff000f;
+            box-shadow: 0 0 4px 2px #ff000f;
+        }
+    }
+}

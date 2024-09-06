@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+
+
+    .header__red-block{
+        position: relative;
+        width: 100%;
+        height: 80px;
+        background-color: #f00;
+
+        .header__red-child{
+            position: absolute;
+            width: 60px;
+            height: 60px;
+            background-color: #000;
+            border-radius: 50%;
+            right: 50px;
+            bottom: -30px;
+            border: 10px solid #fff;
+            z-index: 2;
+
+        }
+        .header__red-child2{
+            position: absolute;
+            width: 70px;
+            height: 70px;
+            background-color: #020202;
+            border-radius: 50%;
+            right: 45px;
+            bottom: -35px;
+            z-index: 1;
+
+        }
+        .header__red-img{
+            max-width: 300px;
+            position: absolute;
+            bottom: 0;
+            background-color: inherit;
+        }
+    }
+    .header__black-block{
+        width: 100%;
+        height: 60px;
+        background-color: #000;
+    }
+}

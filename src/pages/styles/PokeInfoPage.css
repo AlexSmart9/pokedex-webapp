@@ -1,0 +1,170 @@
+.pokeinfo{
+    width: 100%;
+    flex-direction: column;
+    padding: 8em 1.5em;
+    gap: 3em;
+    .pokeinfo__card{
+        width: 100%;
+        max-width: 1116px;
+        height: 100%;
+        background-color: #000000;
+        .pokeinfo__header{
+            position: relative;
+            width: 100%;
+            height: 10em;
+            .pokeinfo__header-img{
+                position: absolute;
+                max-width: 314px;
+                max-height: 312px;
+                top: -9em;
+                left: 0;
+                right: 0;
+                margin: 0 auto;
+            }
+        }
+
+        .pokeinfo__id{
+            font-size: 1.5em;
+            font-weight: 700;
+            text-align: center;
+            padding: 1em;
+        }
+
+        .pokeinfo__name{
+            text-transform: capitalize;
+            text-align: center;
+            font-size: 1.7em;
+            font-weight: 900;
+        }
+
+        .pokeinfo__data{
+            color: #fff;
+            gap: 1em;
+            padding: 1em;
+            .pokeinfo__data-value{
+                text-align: center;
+            }
+        }
+
+        .pokeinfo__items{
+            gap: 1em;
+            color: #fff;
+            padding: 2em;
+            .pokeinfo__types{
+                width: 50%;
+                .pokeinfo__types-text{
+                    text-align: center;
+                    padding: 1em;
+                    font-size: 1.2em;
+                    font-weight: 500;
+                }
+
+                .pokeinfo__types-container{
+                    gap: 0.5em;
+                    grid-template-columns: 50% 50%;
+                    .pokeinfo__types-values{
+                        text-align: center;
+                        text-transform: capitalize;
+                        padding: 0.2em;
+                        color: #000;
+                        font-size: 1.2em;
+                        font-weight: 500;
+                    }
+                    .pokeinfo__types-value{
+                        width: 50%;
+                        text-align: center;
+                        text-transform: capitalize;
+                        padding: 0.2em;
+                        color: #000;
+                        font-size: 1.2em;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .pokeinfo__skills{
+                width: 50%;
+                .pokeinfo__skills-text{
+                    text-align: center;
+                    padding: 1em;
+                    font-size: 1.2em;
+                    font-weight: 500;
+                }
+                .pokeinfo__skills-container{
+                    grid-template-columns: 50% 50%;
+                    .pokeinfo__skills-value{
+                        text-align: center;
+                        text-transform: capitalize;
+                        padding: 0.2em;
+                        font-size: 1.2em;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+
+        .pokeinfo__stats-title{
+            padding-top: 2em;
+            padding-left: 2em;
+            color: #fff;
+            font-size: 1.7em;
+            font-weight: 600;
+        }
+
+    }
+}
+
+.pokeinfo__stats{
+    width: 100%;
+    padding: 2em;
+    .pokeinfo__stats-container{
+        padding: 1em;
+        .pokeinfo__stats-name{
+            text-transform: capitalize;
+            width: 50%;
+            text-align: start;
+            color: #fff ;
+
+        }
+        .pokeinfo__stats-value{
+            width: 50%;
+            color: #fff;
+            text-align: end;
+        }
+    }
+
+    .pokeinfo__stats-progress{
+        width: 100%;
+        height: 1em;
+    }
+    
+}
+
+.pokeinfo__movements{
+    width: 100%;
+    height: 100%;
+    max-width: 1116px;
+    background-color: #000;
+    gap: 2em;
+    flex-direction: column;
+    .pokeinfo__movements-title{
+        width: 100%;
+        padding-left: 1em;
+        padding-top: 1em;
+        font-size: 1.7em;
+        color: #fff;
+    }
+
+    .pokeinfo__movements-container{
+        flex-wrap: wrap;
+        gap: .5em;
+        padding: 1em;
+        .pokeinfo__movement-item{
+            padding: 0.5em;
+            background-color: #999;
+            border-radius: 20px;
+            color: #000;
+            text-transform: capitalize;
+        }
+
+    }
+}

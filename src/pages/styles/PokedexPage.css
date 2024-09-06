@@ -1,0 +1,38 @@
+.pokepage__container{
+    flex-direction: column;
+    gap: 2em;
+    .pokepage__head{
+        flex-direction: column;
+        width: 1024px;
+        gap: 1em;
+        .pokepage__text{
+            color: #fff;
+            font-size: 1.2em;
+            font-weight: 600;
+            .pokepage__text-name{
+                color: #ff000f;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+
+.pokepage__input{
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: .7em  0 0 .7em   ;
+}
+
+.pokepage__btn{
+    background-color: #fff;
+    color: red;
+    border: 2px solid black;
+    border-radius: 0 .7em .7em 0;
+}
+
+.pokemons__container{
+    flex-wrap: wrap;
+    max-width: 1024px;
+    gap: 2em;
+    margin: 0 auto;
+}
